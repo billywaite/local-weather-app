@@ -1,0 +1,44 @@
+@import
+  url(https://fonts.googleapis.com/css?family=Montserrat);
+
+body{
+  margin: 0;
+  padding: 0;
+  background: #79BD8F;
+  font-family: 'Montserrat';
+}
+.weather-block {
+  color: #79BD8F;
+  border-style: none;
+  max-height: 400px;
+  max-width: 600px;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding: 25px;
+}
+.weather-block h2 {
+  color: #FFF;
+}
+.well {
+  background: #FFFF9D;
+  border-style: none;
+  border-radius: 6px;
+  box-shadow: 0 5px 7px 0 rgba(0,0,0,.1);
+}
+.btn {
+  background: #FF6138;
+  color: #FFFF9D;
+  border-radius: 6px;
+  font-weight: 100;
+  font-size: 18px;
+  padding: 12px 20px;
+  box-shadow: 0 5px 7px 0 rgba(0,0,0,.1);
+  border:1px solid #FF6138;
+  transition-duration: 0.4s;
+}
+.btn:hover {
+  background: #FFFF9D;
+  color: #FF6138;
+  border:1px solid #FF6138;
+}
